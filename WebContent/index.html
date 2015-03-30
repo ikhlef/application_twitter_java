@@ -1,0 +1,102 @@
+<html>
+<head>
+<meta charset="utf-8">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<script src="js/jquery-1.10.2.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href =" testbis.css "/>
+<link rel="stylesheet" href =" header.css "/>
+<link rel="stylesheet" href =" login.css "/>
+<script src="login.js"></script>
+<script src="users.js"></script>
+<script src="commentaire.js"></script>
+
+</head>
+<body>
+	<header class="tete">
+		        <div id="titre_principal">
+			        <img class="fouf"src="foufannec.jpg" id="logo"/>
+			        <h3 class="tit">TheSelect</h3>  
+		        </div>
+		<div class="dghf" style="margin-left:65%">
+			    <ul>
+				<li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-user fa-fw"></i>
+						<i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu ">
+						<li><a id="accueil" href="#accueil" style="display:none"><i class="fa fa-home fa-fw"></i>Accueil</a></li>
+						<li><a id="moiiiii" href="#moiii" style="display:none"><i class="fa fa-user fa-fw"></i> User Profile</a></li>
+                        <li><a id="signin" href="index.html" ><i class="fa  fa-sign-in fa-fw"></i> signin | signup</a></li>
+						<li><a id="deconnection" href="bye" style="display:none"><i class="fa fa-sign-out fa-fw"></i> Logout</a></li>
+                    </ul>
+                </li>
+            </ul> 
+		  </div> 
+     		
+	</header>	
+
+
+		
+<div class="b1">
+	<div class="bb1">	
+				<div class="ddzoz">
+				<img src="foufannec.jpg" alt="Photo de Zozor" />
+				</div>
+				
+				<p >Laisse-moi le temps de me presenter : je m'appelle fennec, je suis ne un 14 novembre 2010.</p>
+				<p>Bien maigre, n'est-ce pas ? C'est pourquoi, aujourd'hui, j'ai decide d'ecrire ma biographie 
+				afin que les fennecs sachent qui je suis reellement.</p>
+				<p class="pimg">
+				<a href="https://www.facebook.com/foufa.aucun"><img src="images/facebook.png" title=" facebook" alt="Facebook"/></a>
+				<a href="https://twitter.com/foufi2008"><img src="images/twitter.png" alt="Twitter" title="Twitter "/></a>
+				<img src="images/vimeo.png" alt="Vimeo" />
+				<img src="images/flickr.png" alt="Flickr" />
+				<img src="images/rss.png" alt="RSS" />
+				</p>
+			
+	</div>
+
+
+
+	<div class="bb2">			
+		
+  		<div  class="login-sous-bis">
+	  	    
+			<div id="titi" class="titi"><h4 style="display : inline; color : blue; margin-left : 2%;">sign in</h4></div>
+			
+			<form method="get" id="form-sign1" class="form-sign1" action="javascript:function(){}" onsubmit="javascript:connect(this)" >
+				<input type="text" id="login" class="login1" name="username" id="log" placeholder="Username">
+				<input type="password" id="mdp" class="login1" id="mdpp" name="password" placeholder="Password" >
+				<button class="dddd" style=" margin-left:16%; border-color:rgb(0,128,180)" type="submit">Sign in</button>
+				<a href="signup.html" style=" margin-left:10%;" >New to TheSelect? Sign up</a>
+			</form>
+	   	</div>
+	
+	
+		<div class="login-sous-bis">
+	  	    <div id="titi" class="titi"><h4 style="display : inline; color : blue; margin-left : 2%;">sign up</h4></div>
+			
+			<form method="get" id="form-sign2" class="form-sign1" action="javascript:(function(){return;}) ()" onsubmit="javascript:enregistre(this)">
+				<input type="text" class="login1" name="firstname" placeholder="name" >
+				<input type="text" class="login1" name="name" placeholder="first name">
+				<input type="text" class="login1" name="username" placeholder="Choose your username">
+				<input type="password" class="login1" name="password" placeholder="Create a password">
+				<input type="text" class="login1" name="mail" placeholder="mail">
+				<button style=" margin-left:16%; border-color:rgb(0,128,180)" type="submit">Create my account</button>
+			<a href="login.html" style=" margin-left:10%;">Have an account? Sign in</a>
+			</form>
+			
+	   	</div>
+	 <div class="login-footer foooof">&copy; 2014 TheSelect</div>
+	</div>
+
+</div>
+</body>
+</html>

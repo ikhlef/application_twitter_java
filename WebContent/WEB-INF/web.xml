@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+   <servlet>
+  <servlet-name>createusers</servlet-name>
+  <servlet-class>servlets.user.UsersCreateServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>createusers</servlet-name>             <!-- c'est fait  1 -->
+  <url-pattern>/createusers</url-pattern>
+  </servlet-mapping>
+
+<servlet>
+<servlet-name>login</servlet-name>
+  <servlet-class>servlets.login.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>login</servlet-name>
+  <url-pattern>/login</url-pattern>                              <!-- c'est fait  2 -->
+  </servlet-mapping>
+ 
+ 
+ <servlet>
+<servlet-name>logout</servlet-name>
+  <servlet-class>servlets.login.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>logout</servlet-name>
+  <url-pattern>/logout</url-pattern>                                <!-- a faire   3-->
+  </servlet-mapping> 
+ 
+ <servlet>
+<servlet-name>verifier</servlet-name>
+  <servlet-class>servlets.session.VerifierSessionServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>verifier</servlet-name>
+  <url-pattern>/session</url-pattern>                              <!-- a faire  4-->
+  </servlet-mapping> 
+ 
+ <servlet>
+<servlet-name>addfriend</servlet-name>
+  <servlet-class>servlets.friend.AddFriendServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>addfriend</servlet-name>                          <!-- c'est fait  5-->
+  <url-pattern>/addfriend</url-pattern>
+  </servlet-mapping> 
+
+ 
+ <servlet>
+<servlet-name>removefriend</servlet-name>
+  <servlet-class>servlets.friend.RemoveFriendServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>removefriend</servlet-name>
+  <url-pattern>/removefriend</url-pattern>                      <!-- c'est fait  6-->
+  </servlet-mapping> 
+ 
+ <servlet>
+<servlet-name>seeuserstatus</servlet-name>
+  <servlet-class>servlets.user.SeeUserStatusServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>seeuserstatus</servlet-name>
+  <url-pattern>/seeuserstatus</url-pattern>                      <!-- c'est fait  7-->
+  </servlet-mapping> 
+ 
+ <servlet>
+<servlet-name>listeabonnements</servlet-name>
+  <servlet-class>servlets.friend.ListAbonnementsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>listeabonnements</servlet-name>
+  <url-pattern>/abonnements</url-pattern>                        <!-- c'est fait   8-->
+  </servlet-mapping> 
+
+
+<servlet>
+<servlet-name>listeabonnes</servlet-name>
+  <servlet-class>servlets.friend.ListAbonnesServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>listeabonnes</servlet-name>
+  <url-pattern>/abonnes</url-pattern>                                  <!--9 pas demander, pas utile de connaitre ceux  qui me suivre -->
+  </servlet-mapping> 
+
+<servlet>
+<servlet-name>listesuggerer</servlet-name>
+  <servlet-class>servlets.friend.ListSuggererServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>listesuggerer</servlet-name>
+  <url-pattern>/suggerer</url-pattern>                                  <!-- c'est fait  10-->
+  </servlet-mapping> 
+
+
+<servlet>
+<servlet-name>createtweet</servlet-name>
+  <servlet-class>servlets.mongo.AddTweetServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>createtweet</servlet-name>
+  <url-pattern>/createtweet</url-pattern>                      <!-- c'est fait  11-->
+  </servlet-mapping> 
+
+<servlet>
+<servlet-name>deletetweet</servlet-name>
+  <servlet-class>servlets.mongo.DeleteTweetServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>deletetweet</servlet-name>
+  <url-pattern>/deletetweet</url-pattern>                          <!-- c'est fait 12-->
+  </servlet-mapping> 
+
+
+
+
+<servlet>
+<servlet-name>addcommentaire</servlet-name>
+  <servlet-class>servlets.mongo.AddCommentServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>addcommentaire</servlet-name>
+  <url-pattern>/addcomment</url-pattern>                             <!--13 a faire, a voir si j ai le temps -->
+  </servlet-mapping> 
+
+<servlet>
+<servlet-name>deletecomment</servlet-name>
+  <servlet-class>servlets.mongo.DeleteCommentServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>deletecomment</servlet-name>
+  <url-pattern>/deletecomment</url-pattern>                      <!--14 a faire, a voir si j ai le temps -->
+  </servlet-mapping> 
+
+<servlet>
+<servlet-name>liketweet</servlet-name>
+  <servlet-class>servlets.mongo.LikeTweetServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+  <servlet-name>liketweet</servlet-name>
+  <url-pattern>/liketweet</url-pattern>                          <!--15 c'est fait -->
+  </servlet-mapping> 
+
+<servlet>
+<servlet-name>verifierlikedislike</servlet-name>
+  <servlet-class>servlets.mongo.LikedislikeverifierServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+  <servlet-name>verifierlikedislike</servlet-name>
+  <url-pattern>/verifierlikedislike</url-pattern>                          <!--20 c'est fait -->
+  </servlet-mapping> 
+
+
+<servlet>
+<servlet-name>deliketweet</servlet-name>
+  <servlet-class>servlets.mongo.DelikeTweetServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>deliketweet</servlet-name>
+  <url-pattern>/deliketweet</url-pattern>                       <!--16 c'est fait -->
+  </servlet-mapping> 
+
+
+<servlet>
+<servlet-name>search</servlet-name>
+  <servlet-class>servlets.mongo.SearchServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>search</servlet-name>
+  <url-pattern>/search</url-pattern>                                    <!--17 c est fait -->
+  </servlet-mapping> 
+
+<servlet>
+<servlet-name>searchmytweet</servlet-name>
+  <servlet-class>servlets.mongo.SearchMyTweetsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>searchmytweet</servlet-name>
+  <url-pattern>/searchmytweet</url-pattern>                             <!--18 c est fait -->
+  </servlet-mapping> 
+
+
+<servlet>
+<servlet-name>searchtweetaccueil</servlet-name>
+  <servlet-class>servlets.mongo.SearchTweetsAccueilServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>searchtweetaccueil</servlet-name>
+  <url-pattern>/searchtweetaccueil</url-pattern>                       <!--19  c est fait -->
+  </servlet-mapping> 
+
+</web-app>

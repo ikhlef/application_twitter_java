@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context reloadable="true" antiResourceLocking="true" >
+<Resource
+name="jdbc/db" type="javax.sql.DataSource" maxActive="100" maxIdle="30" maxWait="10000"
+url="jdbc:mysql://132.227.201.129:33306/blaszkiewicz_ikh" driverClassName="com.mysql.jdbc.Driver"
+username="blaszkiewicz_ikh" password="blaszkiewicz_ikh" factory="org.apache.commons.dbcp.BasicDataSourceFactory"/>
+</Context>

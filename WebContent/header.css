@@ -1,0 +1,86 @@
+input.search-query {
+    padding-left:5%;
+	border-radius : 7px;
+	width : 100%;
+	/*width : 100%;*/	
+	}
+input :required {
+background-color: red;
+}
+	
+form.form-search {
+    position: absolute;
+	margin-left : 18%;  
+	margin-top : 1.5%;
+	width : 18%;  
+	
+	}
+
+form.form-search:before {
+    content:'';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+	margin-right : 1px;
+   background-image: url(http://getbootstrap.com/2.3.2/assets/img/glyphicons-halflings.png);
+    background-position: -48px 0;
+	position: absolute; 
+    top:7px;
+    right:0px;  
+	opacity: .7;
+    z-index: 1;	
+}
+.tete{
+background-color: white;
+height : 10%; width : auto;
+border-radius : 3px;
+box-shadow:1px 1px  5px 1px #333;
+border-bottom : 2px solid rgb (123, 186,211);
+/*border-bottom : 2px solid green;*/
+
+/*margin :0px 0px ;*/
+}
+.tit{
+display : inline-block;
+}
+body{background-image : url('bodymer.jpg');
+}
+
+
+#titre_principal{
+display : inline-block;
+margin-left : 2px;
+margin : auto;
+
+}
+img.fouf{
+background-position : center;
+ width:auto; height:90% ; margin: 0px 2px 0px 20px;
+border-radius : 3px;
+vertical-align : top;
+ }
+ 
+.sera{
+display :inline-block;
+vertical-align : top;
+/*width : 80%;*/
+}
+.dghf{
+display : inline-block;
+margin-left : 25%;
+vertical-align : top;
+margin-top:2%;
+}
+
+input{
+display: inline-block;
+}
+
+
+
+nav a:hover{
+color: blue;
+border-bottom: 3px solid blue;
+}
+
+

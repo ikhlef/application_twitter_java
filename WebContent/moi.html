@@ -1,0 +1,107 @@
+<html>
+<head>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+	<script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="login.js"></script>
+	<link rel="stylesheet" href =" testbis.css "/>
+	<link rel="stylesheet" href =" header.css "/>
+    <script src="tweet.js"></script>
+</head>
+<body>
+<div class="page">
+	<header class="tete">
+		        <div id="titre_principal">
+			        <img class="fouf"src="foufannec.jpg" id="logo"/>
+			        <h3 class="tit">TheSelect</h3>  
+		        </div>
+				<div class="sera" >	
+				<form class="form-search " >
+				<input type="text" class="search-query" name="query" placeholder="Search..."  />		
+				</form>
+				</div>
+				<input type="radio" name="contact" id="contact" style="margin-left:36%;width:13px;">contact
+		<div class="dghf">
+			    <ul>
+				<li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-user fa-fw"></i>
+						<i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu ">
+						<li ><a href="accueil.jsp"><i class="fa fa-home fa-fw"></i>Accueil</a></li>
+						<li ><a href="moi.html"><i class="fa fa-user fa-fw"></i> User Profile</a></li>
+                        <li style="display:none;"><a href="index.html"><i class="fa  fa-sign-in fa-fw"></i> signin | signup</a></li>
+						<li><a href="index.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a></li>   
+                    </ul>
+                </li>
+            </ul> 
+		  </div> 
+	</header>	
+</div>
+
+<section class="globale">
+	<section class="p5">
+		<section class="friends">	
+			<div class="picture">
+				<img class="photo" href="#" src="fennec1.jpg">
+			</div>
+			<div class="logg" id="identifiant"><h3>@foufi</h3></div>					
+			<div class="calcule">
+				<ul>
+					<li>
+		  				<span class="calcul">tweets</span>
+						<span class="number" id="tweetnbre">0</span>	
+	  				</li>
+					<li>
+		  				<span class="calcul">abonnements</span>
+						<span class="number" id="abonnenbre">0</span>
+	  				</li>
+					<li>
+		  				<span class="calcul">abonnes</span>
+						<span class="number" id="abnbre">0</span>			
+	  				</li>
+				</ul>
+			</div>
+		</section>
+		
+		<section class="friends">
+			<div class="listesugg" id="friends">
+					<div class="un">
+						<img class="sugg" href="#" src="fennec1.jpg">
+						<a href="C:/Users/foufi2012/Desktop/testoffic.html">@login</a>
+					</div>
+				</div>				
+		</section>
+		
+		
+		<section class="friends" >
+				<div class="listesugg" id="suggestion">
+					<div class="un">
+						<img class="sugg" href="#" src="fennec1.jpg">
+						<a href="C:/Users/foufi2012/Desktop/testoffic.html">@login</a>
+					</div>
+				</div>
+	</section>
+	</section>
+	
+	
+	
+	<section class="p6">			
+		<h3 class="tt" >My Tweets</h3>
+		<div class="newtweet">			
+			<form method = "get" action="javascript:function(){}" onsubmit="javascript:new_tweet(this)"> <h5 class="leg">new tweet</h5>
+			<textarea id="nvteet" name="nvtwt" placeholder="new tweet..." class="nvtwt"> </textarea >
+				<button type="submit" class="valitwet" ><i class="fa fa-comment-o"></i></button>		
+			</form>	
+		</div>
+		
+		<div class="viewTweets" id="viewtweet">	</div>
+	</section>
+
+</section>
+</body>
+</html>

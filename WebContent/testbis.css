@@ -1,0 +1,352 @@
+body{
+width :100%;
+
+}
+.globale{
+display : inline-block;
+width : 90%;
+height : auto;
+margin : auto;
+margin-top :1px;
+border-radius : 3px;
+margin-left: 5%;
+}
+.b1{
+display : inline-block;
+width : 69%;
+margin : auto;
+margin-top :5%;
+border-radius : 3px;
+margin-left: 13%;
+background-color :silver;
+height : 90%;
+}
+
+/*le contenu de bb1 de section*/
+
+.bb1{
+display : inline-block;
+background-color : white;
+width : 30%;
+height : 98%;
+margin : 3px 3px;
+border: 1px solid blue;
+border-radius : 5px; 
+vertical-align: top;
+/*box-shadow : 3px 3px 3px blue;*/
+}
+.bb2{
+display : inline-block;
+background-color : white;
+width : 68%;
+height : 98%;
+margin : 3px 1px;
+border: 1px solid blue;
+border-radius : 5px; 
+vertical-align: top;
+/*box-shadow : 3px 3px 3px blue;*/
+}
+
+ .bb1 p{
+font-size: 1em;
+margin-left : 2%;
+}
+.ddzoz{
+width : 60%;
+height : 30%;
+background-color : white;
+margin :5% auto;
+box-shadow : 3px 3px 3px blue;
+text-align: center;
+}
+
+p.pimg{
+margin-left :7%;
+
+}
+
+.ddzoz img{
+border: 1px solid blues;
+width : 100%;
+height :100%;
+
+}
+/*fin de section*/
+
+.p1{
+display : inline-block;
+/*background-color :green;*/
+width : 29%;
+height : auto;
+margin-left :1%;
+margin : 5px 5px;
+/*border: 1px solid black;*/
+border-radius : 3px; 
+}
+.p2{
+display : inline-block;
+vertical-align: top;
+/*background-color :rgb(156,224,226);*/
+width : 55%;
+height :auto;
+margin : 3px 2px;
+/*border: 1px solid black;*/
+border-radius : 3px;
+}
+.p2 h2{
+font-style:italic;
+}
+.p5{
+display : inline-block;
+/*background-color :green;*/
+width : 25%;
+height : auto;
+margin-left :1%;
+margin : 5px 5px;
+border: 1px solid black;
+border-radius : 3px; 
+}
+.p6{
+display : inline-block;
+vertical-align: top;
+/*background-color :rgb(156,224,226);*/
+width : 45%;
+height :auto;
+margin : 3px 2px;
+/*border: 1px solid black;*/
+border-radius : 3px;
+}
+.place{
+display : block;
+background-color :white;
+width : auto;
+height :33%;
+margin : 2px 2px;
+border: 1px solid blue;
+border-radius : 3px;
+}
+.placeme{
+display : block;
+background-color :white;
+width : auto;
+height :30%;
+margin : 2px 2px;
+border: 1px solid white;
+border-radius : 3px;
+box-shadow : 3px 3px 3px blue;
+}
+.proposi{
+display : block;
+background-color :white;
+width : 98%;
+height :auto;
+margin : 7px 2px;
+border: 1px solid blue;
+border-radius : 3px;
+}
+.proposi h3{
+margin :1px 0 3px 10px;
+}
+.picture{
+display : block;
+background-color :white;
+width : 30%;
+height :30%;
+border: 1px solid blue;
+border-radius : 3px;
+/*vertical-align: top;*/
+margin : auto;
+margin-top : 3%;
+}
+.logg{
+display : block;
+margin-left : 40%;
+}
+.calcule{
+background-color :rgb(192,192,192);
+width : 98%;
+height :30%;
+margin : auto;
+margin-bottom : 1%;
+border: 1px solid white;
+border-radius : 5px;
+}
+
+.friends{
+background-color :white;
+width :100%;
+height :30%;
+margin : auto;
+margin-bottom : 1%;
+border: 1px solid white;
+border-radius : 3px;
+box-shadow : 3px 3px 3px blue;
+
+}
+.photo{
+width : 100%;
+display : block;
+margin :auto;
+height : 100%;
+border-radius : 3px;
+}
+ ul li {
+display: inline-block;
+list-style-type: none;
+}
+.number {
+	display:block;
+	color:blue;
+	font-style:italic;
+	font-size:larger;
+	position : center;
+	margin-left : 20px;
+/*	font-weight:800;
+	text-shadow:1px 1px 1px rgba(0,0,0,0.25);
+*/}
+.numberme {
+	display:block;
+	color:blue;
+	font-style:italic;
+	font-size:larger;
+	position : center;
+	margin-left : 60px;
+/*	font-weight:800;
+	text-shadow:1px 1px 1px rgba(0,0,0,0.25);
+*/}
+
+
+.calcul {
+	display:block;
+	color:#5b8046;
+	font-size:.9em;
+margin-left : 20px;
+text-transform:lowercase;
+text-shadow:0 1px 1px rgba(255,255,255,0.5);
+
+}
+.calculme {
+	display:block;
+	color:#5b8046;
+	font-size:.9em;
+margin-left : 60px;
+text-transform:lowercase;
+text-shadow:0 1px 1px rgba(255,255,255,0.5);
+
+}
+
+div.listesugg{
+display :block;
+height : auto;
+width : 95%;
+margin-left : 2px;
+}
+.un{
+display :inline-block;
+width : auto;
+height : 18%;
+}
+.une{
+display :inline-block;
+width : auto;
+height : 7%;
+}
+.unfriend{
+display :inline-block;
+width : 27%;
+height : 10px;
+margin : 5px 5px;
+margin-bottom : 1%;
+}
+.suggfriend{
+display :inline-block;
+height : auto;
+width :30%;
+margin : 5px 5px; 
+}
+.tooof{
+width : 100%;
+height : auto;
+margin : 5px 5px;
+margin-bottom : 1%;
+
+}
+.tf{
+height : 7%;
+width :13%; 
+margin : 3px 3px; 
+
+}
+
+img.sugg{
+display :inline-block;
+height :40px;
+width :40px; 
+float:left;
+}
+
+.tt{
+margin-left : 4px;
+}
+.newtweet , .viewTweets{
+display :inline-block;
+background-color : white;
+width : 98%;
+height : auto;
+margin-left:3px;
+margin-bottom:3px;
+border-radius : 3px;
+border: 1px solid blue;
+box-shadow : 3px 3px 3px blue;
+}
+.viewTweets{
+height : auto;
+}
+
+.nvtwt{
+display :inline-block;
+width : 65%;
+height : auto;
+margin-left : 2%;
+border-radius : 3px;
+border: 1px solid blue;
+}
+.nvcomm{
+display :inline-block;
+width : 55%;
+height : auto;
+margin-left : 2%;
+border-radius : 3px;
+border: 1px solid blue;
+margin-buttom : 10px
+}
+.valitwet{
+margin-left:15px;
+width: 60px;
+height : 30px;
+ color:blue;
+ vertical-align: top;
+}
+.paj{
+display : inline-block;
+margin-left : 2%;
+margin-top : 1%;
+border-radius : 3px;
+}
+.vtweet{
+background-color : white;
+margin : 3px 3px;
+border-radius : 5px;
+border: 1px solid blue;
+}
+.leg{
+	display:block;
+	color:blue;
+	font-style:italic;
+	font-size:larger;
+	position : center;
+	margin-left : 20px;
+	font-weight:800;
+	text-shadow:1px 1px 1px rgba(0,0,0,0.25);
+
+}
